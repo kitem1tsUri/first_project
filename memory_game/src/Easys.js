@@ -9,7 +9,7 @@ const Easys = () => {
     if (number !== nextNumber) alert("duus");
     nextNumber++;
     console.log(nextNumber);
-    if (nextNumber === 10) alert("ylagch god zaluu yma chi")
+    if (nextNumber === 10) alert("ylagch god yma chi. Buteegch ene buhniig harah boln")
   };
 
   function shuffle() {

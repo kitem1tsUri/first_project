@@ -1,10 +1,10 @@
-import { Link } from 'react-router-dom';
-import './App.css';
+import { Link } from "react-router-dom";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <Link>easy</Link>
+      <Link to="/easy">easy</Link>
       <div>medium</div>
       <div>hard</div>
     </div>
@@ -12,5 +12,3 @@ function App() {
 }
 
 export default App;
-
-
