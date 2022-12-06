@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <div>easy</div>
+      <Link>easy</Link>
       <div>medium</div>
       <div>hard</div>
     </div>

@@ -21,3 +21,13 @@
     justify-content: center;
     align-items: center;
 }
+.mid {
+    display: flex;
+    justify-content: center;
+}
+.restart { 
+    border: solid;
+    width: 100px;
+    background-color: white;
+    cursor: pointer;
+}
