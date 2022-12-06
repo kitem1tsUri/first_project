@@ -9,7 +9,8 @@ const Easys = () => {
     if (number !== nextNumber) alert("duus");
     nextNumber++;
     console.log(nextNumber);
-    if (nextNumber === 10) alert("ylagch god yma chi. Buteegch ene buhniig harah boln")
+    if (nextNumber === 10)
+      alert("ylagch god yma chi. Buteegch ene buhniig harah bolnz");
   };
 
   function shuffle() {
@@ -29,10 +30,10 @@ const Easys = () => {
       ];
     }
     console.log(arr);
-    setDisplay(true)
-    setTimeout(()=>{
-      setDisplay(false)
-    }, 3000)
+    setDisplay(true);
+    setTimeout(() => {
+      setDisplay(false);
+    }, 3000);
     setArray(arr);
   }
 
@@ -41,7 +42,7 @@ const Easys = () => {
       <div>
         <div class="grid-container">
           {array.map((number) => (
-            <div class="grid-item" onClick={() => darh(number)}>
+            <div class="grid-item" onClick={() => !display && darh(number)}>
               {display && number}
             </div>
           ))}
