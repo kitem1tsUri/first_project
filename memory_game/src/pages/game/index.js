@@ -40,7 +40,7 @@ export const GamePage = () => {
 
   return (
     <div className="easy">
-      <div>
+      <div>   
         <div class="grid-container">
           {array.map((number) => (
             <div class="grid-item" onClick={() => !display && darh(number)}>
