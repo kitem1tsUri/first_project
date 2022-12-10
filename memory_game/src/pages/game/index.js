@@ -59,7 +59,7 @@ export const GamePage = () => {
       </div>
       <div className="mid">
         <div className="restart" onClick={() => shuffle()}>
-          restart this fucking game
+          restart this game
         </div>
       </div>
     </div>
