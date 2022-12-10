@@ -2,9 +2,10 @@ import React, { useContext, useState } from "react";
 import { GameModeContext } from "../../contexts/gameModeContext";
 
 export const GamePage = () => {
-  const { levelValue } = useContext(GameModeContext);
+  const { levelValue, timer} = useContext(GameModeContext);
   const [array, setArray] = useState(levelValue);
   const [display, setDisplay] = useState(true);
+  const [gameTime, setGametime] = useState(timer);
   let nextNumber = 1;
   const darh = (number) => {
     if (number !== nextNumber) alert("duus");
@@ -33,7 +34,7 @@ export const GamePage = () => {
     setDisplay(true);
     setTimeout(() => {
       setDisplay(false);
-    }, 3000);
+    }, gameTime);
     setArray(arr);
   }
 
