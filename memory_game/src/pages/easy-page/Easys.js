@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./Easys.css";
 
-const Easys = () => {
+export const EasyPage = () => {
   const [array, setArray] = useState([1, 2, 3, 4, 5, 6, 7, 8, 9]);
   const [display, setDisplay] = useState(true);
   let nextNumber = 1;
@@ -9,8 +9,7 @@ const Easys = () => {
     if (number !== nextNumber) alert("duus");
     nextNumber++;
     console.log(nextNumber);
-    if (nextNumber === 10)
-      alert("ylagch god yma chi. Buteegch ene buhniig harah bolnz");
+    if (nextNumber === 10) alert("wuoa lagyomaa /tom nudtei emoji/)");
   };
 
   function shuffle() {
@@ -64,4 +63,3 @@ const Easys = () => {
     </div>
   );
 };
-export default Easys;
