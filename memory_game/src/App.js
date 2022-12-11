@@ -32,6 +32,7 @@ function App() {
       >
         hard
       </Link>
+      <a id="ig" href="https://www.instagram.com/khuslen_myagmar/">visit my instagram</a>
     </div>
   );
 }
